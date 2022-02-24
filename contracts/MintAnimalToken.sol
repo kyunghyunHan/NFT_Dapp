@@ -12,8 +12,8 @@ contract MintAnimalToken is ERC721Enumerable {
         uint256 animalTokenId = totalSupply() + 1;
 
         uint256 animalType = uint256(keccak256(abi.encodePacked(block.timestamp, msg.sender, animalTokenId))) % 5 + 1;
-
-        animalTypes[animalTokenId] = animalType;
+         //랜덤하게
+        animalTypes[animalTokenId] = animalType; 
 //animalTokenId = nft가 가지는 유일한 값
 //totalSupply = 민팅된 nft양
 //msg.sender -> minting누른사람
