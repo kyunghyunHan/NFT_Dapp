@@ -34,3 +34,6 @@ test
 ```
 remixed - s. —remix-ide https://remix.ethereum.org
 ```
+```
+npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
+```
